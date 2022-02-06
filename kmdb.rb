@@ -84,164 +84,164 @@ Role.destroy_all
 # Do not use hard-coded foreign key IDs.
 # TODO!
 
-movie1 = Movie.new
-movie1.title = "Batman Begins"
-movie1.year_released = "2005"
-movie1.rated = "PG-13"
-movie1.person_id = "1"
-movie1.save
+new_person1 = Person.new
+new_person1.name = "Christopher Nolan"
+new_person1.save
 
-movie2 = Movie.new
-movie2.title = "The Dark Knight"
-movie2.year_released = "2008"
-movie2.rated = "PG-13"
-movie2.person_id = "1"
-movie2.save
+new_person2 = Person.new
+new_person2.name = "Christian Bale"
+new_person2.save
 
-movie3 = Movie.new
-movie3.title = "The Dark Knight Rises"
-movie3.year_released = "2012"
-movie3.rated = "PG-13"
-movie3.person_id = "1"
-movie3.save
+new_person3 = Person.new
+new_person3.name = "Michael Caine"
+new_person3.save
 
-person1 = Person.new
-person1.name = "Christopher Nolan"
-person1.save
+new_person4 = Person.new
+new_person4.name = "Liam Neeson"
+new_person4.save
 
-person2 = Person.new
-person2.name = "Christian Bale"
-person2.save
+new_person5 = Person.new
+new_person5.name = "Katie Holmes"
+new_person5.save
 
-person3 = Person.new
-person3.name = "Michael Caine"
-person3.save
+new_person6 = Person.new
+new_person6.name = "Gary Oldman"
+new_person6.save
 
-person4 = Person.new
-person4.name = "Liam Neeson"
-person4.save
+new_person = Person.new
+new_person.name = "Heath Ledger"
+new_person.save
 
-person5 = Person.new
-person5.name = "Katie Holmes"
-person5.save
+new_person = Person.new
+new_person.name = "Aaron Eckhart"
+new_person.save
 
-person6 = Person.new
-person6.name = "Gary Oldman"
-person6.save
+new_person = Person.new
+new_person.name = "Maggie Gyllenhaal"
+new_person.save
 
-person7 = Person.new
-person7.name = "Heath Ledger"
-person7.save
+new_person = Person.new
+new_person.name = "Tom Hardy"
+new_person.save
 
-person8 = Person.new
-person8.name = "Aaron Eckhart"
-person8.save
+new_person = Person.new
+new_person.name = "Joseph Gordon-Levitt"
+new_person.save
 
-person9 = Person.new
-person9.name = "Maggie Gyllenhaal"
-person9.save
+new_person = Person.new
+new_person.name = "Anne Hathaway"
+new_person.save
 
-person10 = Person.new
-person10.name = "Tom Hardy"
-person10.save
+new_role = Role.new
+new_role.movie_id = "1"
+new_role.person_id = "2"
+new_role.character_name = "Bruce Wayne"
+new_role.save
 
-person11 = Person.new
-person11.name = "Joseph Gordon-Levitt"
-person11.save
+new_role = Role.new
+new_role.movie_id = "1"
+new_role.person_id = "3"
+new_role.character_name = "Alfred"
+new_role.save
 
-person12 = Person.new
-person12.name = "Anne Hathaway"
-person12.save
+new_role = Role.new
+new_role.movie_id = "1"
+new_role.person_id = "4"
+new_role.character_name = "Ra's Al Ghul"
+new_role.save
 
-role1 = Role.new
-role1.movie_id = "1"
-role1.person_id = "2"
-role1.character_name = "Bruce Wayne"
-role1.save
+new_role = Role.new
+new_role.movie_id = "1"
+new_role.person_id = "5"
+new_role.character_name = "Rachel Dawes"
+new_role.save
 
-role2 = Role.new
-role2.movie_id = "1"
-role2.person_id = "3"
-role2.character_name = "Alfred"
-role2.save
+new_role = Role.new
+new_role.movie_id = "1"
+new_role.person_id = "6"
+new_role.character_name = "Commissioner Gordon"
+new_role.save
 
-role3 = Role.new
-role3.movie_id = "1"
-role3.person_id = "4"
-role3.character_name = "Ra's Al Ghul"
-role3.save
+new_role = Role.new
+new_role.movie_id = "2"
+new_role.person_id = "2"
+new_role.character_name = "Bruce Wayne"
+new_role.save
 
-role4 = Role.new
-role4.movie_id = "1"
-role4.person_id = "5"
-role4.character_name = "Rachel Dawes"
-role4.save
+new_role = Role.new
+new_role.movie_id = "2"
+new_role.person_id = "7"
+new_role.character_name = "Joker"
+new_role.save
 
-role5 = Role.new
-role5.movie_id = "1"
-role5.person_id = "6"
-role5.character_name = "Commissioner Gordon"
-role5.save
+new_role = Role.new
+new_role.movie_id = "2"
+new_role.person_id = "8"
+new_role.character_name = "Harvey Dent"
+new_role.save
 
-role6 = Role.new
-role6.movie_id = "2"
-role6.person_id = "2"
-role6.character_name = "Bruce Wayne"
-role6.save
+new_role = Role.new
+new_role.movie_id = "2"
+new_role.person_id = "3"
+new_role.character_name = "Alfred"
+new_role.save
 
-role7 = Role.new
-role7.movie_id = "2"
-role7.person_id = "7"
-role7.character_name = "Joker"
-role7.save
+new_role = Role.new
+new_role.movie_id = "2"
+new_role.person_id = "9"
+new_role.character_name = "Rachel Dawes"
+new_role.save
 
-role8 = Role.new
-role8.movie_id = "2"
-role8.person_id = "8"
-role8.character_name = "Harvey Dent"
-role8.save
+new_role = Role.new
+new_role.movie_id = "3"
+new_role.person_id = "2"
+new_role.character_name = "Bruce Wayne"
+new_role.save
 
-role9 = Role.new
-role9.movie_id = "2"
-role9.person_id = "3"
-role9.character_name = "Alfred"
-role9.save
+new_role = Role.new
+new_role.movie_id = "3"
+new_role.person_id = "6"
+new_role.character_name = "Commissioner Gordon"
+new_role.save
 
-role10 = Role.new
-role10.movie_id = "2"
-role10.person_id = "9"
-role10.character_name = "Rachel Dawes"
-role10.save
+new_role = Role.new
+new_role.movie_id = "3"
+new_role.person_id = "10"
+new_role.character_name = "Bane"
+new_role.save
 
-role11 = Role.new
-role11.movie_id = "3"
-role11.person_id = "2"
-role11.character_name = "Bruce Wayne"
-role11.save
+new_role = Role.new
+new_role.movie_id = "3"
+new_role.person_id = "11"
+new_role.character_name = "John Blake"
+new_role.save
 
-role12 = Role.new
-role12.movie_id = "3"
-role12.person_id = "6"
-role12.character_name = "Commissioner Gordon"
-role12.save
+new_role = Role.new
+new_role.movie_id = "3"
+new_role.person_id = "12"
+new_role.character_name = "Selina Kyle"
+new_role.save
 
-role13 = Role.new
-role13.movie_id = "3"
-role13.person_id = "10"
-role13.character_name = "Bane"
-role13.save
+new_movie = Movie.new
+new_movie.title = "Batman Begins"
+new_movie.year_released = "2005"
+new_movie.rated = "PG-13"
+new_movie.person_id = "1"
+new_movie.save
 
-role14 = Role.new
-role14.movie_id = "3"
-role14.person_id = "11"
-role14.character_name = "John Blake"
-role14.save
+new_movie = Movie.new
+new_movie.title = "The Dark Knight"
+new_movie.year_released = "2008"
+new_movie.rated = "PG-13"
+new_movie.person_id = "1"
+new_movie.save
 
-role15 = Role.new
-role15.movie_id = "3"
-role15.person_id = "12"
-role15.character_name = "Selina Kyle"
-role15.save
+new_movie = Movie.new
+new_movie.title = "The Dark Knight Rises"
+new_movie.year_released = "2012"
+new_movie.rated = "PG-13"
+new_movie.person_id = "1"
+new_movie.save
 
 # Prints a header for the movies output
 puts "Movies"
@@ -250,10 +250,11 @@ puts ""
 
 # Query the movies data and loop through the results to display the movies output
 # TODO!
+# .all is a "method" - whenever you call a method, use the singular
 
-for movie in movies
-    puts "#{title} #{year_released} #{rated} #{person_id}"
-end
+
+
+
 
 # Prints a header for the cast output
 puts ""
@@ -263,3 +264,5 @@ puts ""
 
 # Query the cast data and loop through the results to display the cast output for each movie
 # TODO!
+
+
